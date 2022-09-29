@@ -1,0 +1,38 @@
+.wrapper-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*margin:0 auto;*/
+}
+
+.wrapper {
+    border: 2px dashed black;
+    background-color: aqua;
+    width: 500px;
+    text-align: center;
+}
+
+.wrapper-input {
+    margin-top: 50px;
+}
+
+.button1{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: darkorange;
+}
+
+.wrapper-table {
+    border: 1px;
+    margin-top: 50px;
+}
+
+.wrapper-button{
+    margin-top: 50px;
+}
+
+.button2{
+    border: 2px solid black;
+    border-radius: 5px;
+}
