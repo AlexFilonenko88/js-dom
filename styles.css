@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .wrapper-body {
     display: flex;
     align-items: center;
@@ -28,8 +32,14 @@
     margin-top: 50px;
 }
 
-.wrapper-table > th {
-    margin-right: 20px;
+.wrapper-table > table {
+    border-spacing: 0;
+}
+
+.wrapper-table th,
+.wrapper-table td {
+    border: 1px solid #999;
+    padding: 10px 20px;
 }
 
 .wrapper-button {
