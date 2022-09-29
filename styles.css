@@ -1,4 +1,4 @@
-.wrapper-body{
+.wrapper-body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,22 +17,26 @@
     margin-top: 50px;
 }
 
-.button1{
+.button1 {
     border: 2px solid black;
     border-radius: 5px;
     background-color: darkorange;
 }
 
 .wrapper-table {
-    border: 1px;
+    border: 5px;
     margin-top: 50px;
 }
 
-.wrapper-button{
+.wrapper-table > th {
+    margin-right: 20px;
+}
+
+.wrapper-button {
     margin-top: 50px;
 }
 
-.button2{
+.button2 {
     border: 2px solid black;
     border-radius: 5px;
 }
